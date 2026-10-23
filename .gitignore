@@ -1,3 +1,19 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# 导出产物与临时下载（不进仓库）
+/build/
+/.downloads/
+
+# 交付包与提交材料：体积大，属于产物而非源码
+/王西平-提交材料/
+/王西平-提交材料.zip
+/deliverables/*.zip
+
+# macOS
+.DS_Store
+
+# Python 字节码缓存
+__pycache__/
+*.pyc

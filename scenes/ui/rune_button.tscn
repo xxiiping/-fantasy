@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/rune_button.gd" id="1_btn"]
+
+[node name="RuneButton" type="Button"]
+custom_minimum_size = Vector2(132, 158)
+offset_right = 132.0
+offset_bottom = 158.0
+focus_mode = 0
+flat = true
+script = ExtResource("1_btn")
+
+[node name="NameLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+vertical_alignment = 1

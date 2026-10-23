@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Theme" path="res://resources/theme/main_theme.tres" id="1_theme"]
+
+[node name="FontCheck" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_theme")
+
+[node name="Back" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0549, 0.1019, 0.1686, 1)
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Center"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="L1" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "郑和：Fantasy"
+horizontal_alignment = 1
+
+[node name="L2" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "星光开航，潮汐同行，最后听风而行。"
+horizontal_alignment = 1
+
+[node name="L3" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "符文机关 · 余两次 · 机关认得这条路"
+horizontal_alignment = 1
+
+[node name="L4" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "AHKWM 0123 —— 拉丁对照，确认字形基线"
+horizontal_alignment = 1
